@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empowering the Nation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Empowering the Nation</h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#home" onclick="showSection('home')">Home</a></li>
+            <li><a href="#six-months-courses" onclick="showSection('six-months-courses')">six-months-courses</a></li>
+            <li><a href="#services" onclick="showSection('services')">Services</a></li>
+            <li><a href="#contact" onclick="showSection('contact')">Contact</a></li>
+            <li><a href="#six-weeks-courses" onclick="showSection('six-week-courses')">six-weeks-courses</a></li>
+        </ul>
+    </nav>
+
+    <!-- Welcome Section -->
+    <section class="welcome-section">
+        <h2>Welcome to Empowering the Nation</h2>
+        <p>Empowering lives through education and opportunity.</p>
+    </section>
+
+    <!-- Interactive Boxes Section -->
+    <div class="all">
+        <div id="six-months-courses" class="left">
+            <div class="text">six-months-courses</div>
+        </div>
+        <div id="services" class="center">
+            <div class="text">Services</div>
+        </div>
+        <div id="contact" class="right">
+            <div class="text">Contact</div>
+        </div>
+        <div id="six-weeks-courses" class="lefter">
+            <div class="text">six-week-courses</div>
+        </div>
+    </div>
+
+    <!-- Info Sections -->
+    <div id="home" class="info-section">
+        <h2>Home</h2>
+        <p>This is the Home section.</p>
+    </div>
+
+    <div id="six-months-courses" class="info-section">
+        <h2>six-months-courses</h2>
+        <li>First Aid.</li>
+    </div>
+
+    <div id="services" class="info-section">
+        <h2>Services</h2>
+        <p>Discover the services we offer to empower you.</p>
+    </div>
+
+    <div id="contact" class="info-section">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us for more information.</p>
+    </div>
+
+    <div id="six-weeks-courses" class="info-section">
+        <h2>six-weeks-courses</h2>
+        <p>Get to know more about our team and our goals.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
